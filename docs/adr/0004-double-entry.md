@@ -1,4 +1,4 @@
-# ADR 0004 — Double-entry accounting
+# ADR 0004: Double-entry accounting
 
 ## Status
 

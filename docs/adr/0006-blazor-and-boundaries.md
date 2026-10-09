@@ -1,4 +1,4 @@
-# ADR 0006 — Blazor and service boundaries
+# ADR 0006: Blazor and service boundaries
 
 ## Status
 

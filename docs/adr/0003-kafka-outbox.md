@@ -1,4 +1,4 @@
-# ADR 0003 — Kafka and the transactional outbox
+# ADR 0003: Kafka and the transactional outbox
 
 ## Status
 

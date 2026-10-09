@@ -1,4 +1,4 @@
-# ADR 0005 — Redis
+# ADR 0005: Redis
 
 ## Status
 

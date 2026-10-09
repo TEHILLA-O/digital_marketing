@@ -1,4 +1,4 @@
-# ADR 0002 — PostgreSQL
+# ADR 0002: PostgreSQL
 
 ## Status
 
