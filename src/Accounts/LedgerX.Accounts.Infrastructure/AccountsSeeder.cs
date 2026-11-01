@@ -20,6 +20,7 @@ public sealed class AccountsSeeder(AccountsDbContext db, IClock clock, ILogger<A
         await EnsureAccount(DemoIds.AliceSavings, DemoIds.AliceCustomer, AccountType.Savings, "Alice Savings", "10000002", 2500m, cancellationToken).ConfigureAwait(false);
         await EnsureAccount(DemoIds.BobCurrent, DemoIds.BobCustomer, AccountType.Current, "Bob Current", "20000001", 1000m, cancellationToken).ConfigureAwait(false);
         await EnsureAccount(DemoIds.CarolCurrent, DemoIds.CarolCustomer, AccountType.Current, "Carol Current", "30000001", 750m, cancellationToken).ConfigureAwait(false);
+        await db.SaveChangesAsync(cancellationToken).ConfigureAwait(false);
 
         if (!await db.Beneficiaries.AnyAsync(cancellationToken).ConfigureAwait(false))
         {
