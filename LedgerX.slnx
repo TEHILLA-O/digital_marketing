@@ -1,2 +1,49 @@
 <Solution>
+  <Folder Name="/src/">
+    <Project Path="src/LedgerX.AppHost/LedgerX.AppHost.csproj" />
+    <Project Path="src/LedgerX.ServiceDefaults/LedgerX.ServiceDefaults.csproj" />
+  </Folder>
+  <Folder Name="/src/Accounts/">
+    <Project Path="src/Accounts/LedgerX.Accounts.Api/LedgerX.Accounts.Api.csproj" />
+    <Project Path="src/Accounts/LedgerX.Accounts.Application/LedgerX.Accounts.Application.csproj" />
+    <Project Path="src/Accounts/LedgerX.Accounts.Domain/LedgerX.Accounts.Domain.csproj" />
+    <Project Path="src/Accounts/LedgerX.Accounts.Infrastructure/LedgerX.Accounts.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/BuildingBlocks/">
+    <Project Path="src/BuildingBlocks/LedgerX.Contracts/LedgerX.Contracts.csproj" />
+    <Project Path="src/BuildingBlocks/LedgerX.Eventing/LedgerX.Eventing.csproj" />
+    <Project Path="src/BuildingBlocks/LedgerX.SharedKernel/LedgerX.SharedKernel.csproj" />
+  </Folder>
+  <Folder Name="/src/Identity/">
+    <Project Path="src/Identity/LedgerX.Identity.Api/LedgerX.Identity.Api.csproj" />
+    <Project Path="src/Identity/LedgerX.Identity.Application/LedgerX.Identity.Application.csproj" />
+    <Project Path="src/Identity/LedgerX.Identity.Domain/LedgerX.Identity.Domain.csproj" />
+    <Project Path="src/Identity/LedgerX.Identity.Infrastructure/LedgerX.Identity.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Ledger/">
+    <Project Path="src/Ledger/LedgerX.Ledger.Api/LedgerX.Ledger.Api.csproj" />
+    <Project Path="src/Ledger/LedgerX.Ledger.Application/LedgerX.Ledger.Application.csproj" />
+    <Project Path="src/Ledger/LedgerX.Ledger.Domain/LedgerX.Ledger.Domain.csproj" />
+    <Project Path="src/Ledger/LedgerX.Ledger.Infrastructure/LedgerX.Ledger.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Payments/">
+    <Project Path="src/Payments/LedgerX.Payments.Api/LedgerX.Payments.Api.csproj" />
+    <Project Path="src/Payments/LedgerX.Payments.Application/LedgerX.Payments.Application.csproj" />
+    <Project Path="src/Payments/LedgerX.Payments.Domain/LedgerX.Payments.Domain.csproj" />
+    <Project Path="src/Payments/LedgerX.Payments.Infrastructure/LedgerX.Payments.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/src/Web/">
+    <Project Path="src/Web/LedgerX.Web/LedgerX.Web.csproj" />
+  </Folder>
+  <Folder Name="/src/Workers/">
+    <Project Path="src/Workers/LedgerX.Audit.Worker/LedgerX.Audit.Worker.csproj" />
+    <Project Path="src/Workers/LedgerX.Notification.Worker/LedgerX.Notification.Worker.csproj" />
+    <Project Path="src/Workers/LedgerX.Projection.Worker/LedgerX.Projection.Worker.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/LedgerX.Application.Tests/LedgerX.Application.Tests.csproj" />
+    <Project Path="tests/LedgerX.ArchitectureTests/LedgerX.ArchitectureTests.csproj" />
+    <Project Path="tests/LedgerX.Domain.Tests/LedgerX.Domain.Tests.csproj" />
+    <Project Path="tests/LedgerX.IntegrationTests/LedgerX.IntegrationTests.csproj" />
+  </Folder>
 </Solution>
