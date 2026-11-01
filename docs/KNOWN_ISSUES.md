@@ -14,6 +14,6 @@ LedgerX is an educational / portfolio system. It is **not** a regulated bank and
 
 ## Resolved during build
 
-- .NET 10 `dotnet new sln` emits `LedgerX.slnx`; a classic `.sln` is also provided.
+- .NET 10 `dotnet new sln` emits `LedgerX.slnx`; a classic `LedgerX.sln` exists but is empty; use `LedgerX.slnx`.
 - `Money.Currency` collided with the `Currency` type; factories use an `IsoCurrency` alias.
 - OpenAPI 2.x no longer exposes `Microsoft.OpenApi.Models` the same way; document security scheme registration was simplified.
